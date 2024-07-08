@@ -120,7 +120,7 @@ body{
     
 }
 
-#join{
+#joinbtn1{
     background-color: black;
     border: none;
     color: rgb(255, 255, 255);
@@ -131,6 +131,45 @@ body{
 .party-img{
     padding:70px ;
 }
+
+/* location section */
+
+.location{
+    min-height: 500px;
+    margin: 0 auto;
+    max-width: 1320px;
+    background-image: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    border-radius: 16px;
+    box-shadow: 100px ;
+}
+
+.location-details{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    padding-top: 140px;
+    padding-bottom: 150px;
+}
+#joinbtn2{
+    width: 167px;
+    height:56px ;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.redcolor{
+    color: rgb(255, 0, 0);
+}
+
+
+
 
 
 
