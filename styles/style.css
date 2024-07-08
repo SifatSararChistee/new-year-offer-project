@@ -89,28 +89,45 @@ body{
     margin: 0 auto;
     margin-top: 100px;
     display: flex;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.8);
     background-blend-mode: overlay;
+    gap: 150px;
 }
 
+.party-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .party h1{
     
     font-family: Inter;
-    color: rgb(255, 255, 255);
+    color: rgb(239, 235, 235);
     font-size: 64px;
     font-weight: 700;
-    padding: 126px 126px;
+    padding: 126px 0 50px 126px;
     
 }
 .party p{
     width: 600px;
+    
     font-family: Inter;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgb(229, 234, 237);
     font-size: 18px;
     font-weight: 400;
-    padding: 20px 20px;
+    padding:0 0 20px 126px ;
+    
 }
 
+#join{
+    background-color: black;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+}
 .party-img{
     padding:70px ;
 }
