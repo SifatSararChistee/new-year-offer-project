@@ -178,6 +178,7 @@ body{
     display: flex;
     margin-top: 150px;
     gap: 50px;
+    margin-bottom: 150px;
 }
 
 
@@ -214,7 +215,6 @@ font-size: 20px;
 font-weight: 400;}
 
 .offercontent2{
-    
     border-radius:600px;
     box-sizing: border-box;
     border: 15px solid rgb(255, 0, 0);
@@ -222,6 +222,7 @@ font-weight: 400;}
     flex-direction: column;
     justify-content: center;
     width: 33%;}
+    
     
 
 .offercontent3
@@ -249,5 +250,67 @@ font-weight: 400;}
     max-height: 140px;
 }
 
+/* discount section */
 
+.discount-container{
+    width: 1320px;
+    height: 800.07px;
+    margin: 0 auto;
+    position: relative;
+}
 
+.discount-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.discount-text h4{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.discount-text h1{
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+
+}
+#textred{
+    color: red;
+}
+
+.discount-text p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: center;
+    padding: 20px 50px 0px 50px ;
+}
+
+.rectangle-img{
+    width: 1320px;
+    height: 229px;
+    border-radius: 16px 0px 16px 16px;
+    position:absolute;
+    top: 80%;
+}
+
+.gift-img{
+    position: absolute;
+    width: 600.82px;
+    height: 400.96px; 
+}
+.discount50-img{
+    position: absolute;
+    width: 305.69px;
+    height: 305.69px;
+    left: 70%;
+    top: 40%;
+}
