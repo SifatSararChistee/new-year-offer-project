@@ -92,6 +92,7 @@ body{
     background-color: rgba(0, 0, 0, 0.8);
     background-blend-mode: overlay;
     gap: 150px;
+    border-radius: 20px;
 }
 
 .party-content{
@@ -314,3 +315,4 @@ font-weight: 400;}
     left: 70%;
     top: 40%;
 }
+
